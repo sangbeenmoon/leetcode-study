@@ -9,7 +9,7 @@ class Solution:
         MM = 10001
         cnt = 0
         cur = head
-        while cur != None:
+        while cur:
             cnt += 1
             if cnt > MM:
                 return True
